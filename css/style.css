@@ -20,15 +20,28 @@
     background: #5490F5;
     color: #fff;
 }
+.btn-primary:hover{
+    background: #3b62a6;
+    color: #fff;
+    transition: 0.7s;
+}
 .btn-success{
     background: #09A15C;
     color: #fff;
+}
+.btn-success:hover{
+    background: #29d387;
+    transition: 0.7s;
 }
 .btn-alert{
     background: #FFC239;
     color: #fff;
 }
-
+.btn-alert:hover{
+    background: #be8b16;
+    color: #fff;
+    transition: 0.7s;
+}
 header{
     background-color: #F5F5F5;
 }
@@ -53,6 +66,11 @@ header{
     padding: 15px 30px;
     font-size: 18px;
     cursor: pointer;
+}
+.navbar .nav-btn:hover{
+    background: #006A50;
+    color: #fff;
+    transition: 0.7s;
 }
 #hero{
     max-width: 1168px;
@@ -88,8 +106,13 @@ header{
     font-weight: 600px;
     cursor: pointer;
 }
+#hero .hero-btn:hover{
+    background: #11a962;
+    transition: 0.7s;
+}
 main{
     background-color: #F5F5F5;
+    padding-bottom: 80px;
 }
 #pillers {
     max-width: 1168px;
@@ -105,12 +128,14 @@ main{
     display: flex;
     margin-top: 30px;
     gap: 25px;
+    width: 100%;
 
 }
 .card .card-item{
     border-radius: 16px;
     background: #fff;
     padding: 24px;
+    width: 25%;
 }
 .card .card-title{
     color: #0E0E0E;
@@ -125,6 +150,12 @@ main{
 #future{
     max-width: 1168px;
     margin: 0 auto;
+}
+#future .card{
+    width: 100%;
+}
+#future .card-item{
+    width: 33.3%;
 }
 .future-section .future-title{
     color: #0E0E0E;
@@ -141,6 +172,7 @@ main{
     padding: 10px 20px;
     border: none;
     margin-top: 40px;
+    cursor: pointer;
 }
 #republic{
     max-width: 1168px;
@@ -211,6 +243,13 @@ main{
     background: #C6E4D6;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.faq-content .faq-btn:hover{
+    background: #087944;
+    color: #fff;
+    transition: 0.7s;
 }
 #news{
     max-width: 1168px;
@@ -259,6 +298,12 @@ main{
     color: #fff;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+}
+.box-content .news-btn:hover{
+    background: #14e0ad;
+    color: rgba(14, 14, 14, 0.7);
+    transition: 0.7s;
 }
 #donate{
     max-width: 1168px;
@@ -291,6 +336,10 @@ main{
     border: none;
     cursor: pointer;
 }
+.donate-items .item button:hover{
+    background: #C6E4D6;
+    transition: 0.7s;
+}
 .donate-section .custom{
     width: 100%;
     padding: 20px 0px;
@@ -307,15 +356,24 @@ main{
     color: #fff;
     font-weight: 600;
     border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.donate-section .btn:hover{
+    background: #14e0ad;
+    color: rgba(14, 14, 14, 0.7);
+    transition: 0.7s;
 }
 #newsletter{
     max-width: 1168px;
     margin: 0 auto;
-    padding-top: 80px;
-    padding-bottom: 80px;
     background: #C6E4D6;
     border-radius: 24px;
     margin-top: 80px;
+    padding-bottom: 80px;
+}
+#newsletter .newsletter-section{
+    padding: 80px 0px;
 }
 .newsletter-section .title{
     font-size: 40px;
@@ -346,10 +404,39 @@ main{
     padding: 17px 34px;
     color: #fff;
     border: none;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.newsletter-section button:hover{
+    background: #14e0ad;
+    color: rgba(14, 14, 14, 0.7);
+    transition: 0.7s;
 }
 .newsletter-section .alert{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
     text-align: center;
     margin-top: 25px;
+}
+footer{
+    background-color: #fff;
+    padding-bottom: 25px;
+}
+.footer-sec{
+    text-align: center;
+    padding-top: 50px;
+}
+.footer-sec title{
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: 700;
+}
+.footer-sec .social{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 25px;
 }
