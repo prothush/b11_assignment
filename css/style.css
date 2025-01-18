@@ -397,10 +397,9 @@ main{
 }
 #newsletter{
     max-width: 1168px;
-    margin: 0 auto;
+    margin: 80px auto;
     background: #C6E4D6;
     border-radius: 24px;
-    margin-top: 80px;
 }
 #newsletter .newsletter-section{
     padding: 80px 0px;

@@ -14,6 +14,10 @@
     #pillers, #future, #republic, #faq, #news, #donate{
         margin: 0px 10px;
     }
+    #newsletter, .newsletter-section{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     #donate{
         text-align: center;
     }
