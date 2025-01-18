@@ -232,7 +232,8 @@ main{
 .faq-content table{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-collapse: collapse; 
-    width: 100%;  
+    width: 100%;
+    word-wrap: break-word;
 }
 .faq-content table th{
     background: #C6E4D6;
@@ -243,7 +244,7 @@ main{
 }
 .faq-content td {
     border: 1px solid rgba(14, 14, 14, 0.15);
-    padding: 35px 25px;
+    padding: 35px 10px;
     font-size: 16px;
     font-weight: 600;
 }
@@ -272,13 +273,16 @@ main{
     font-weight: 500;
     cursor: pointer;
     border-radius: 4px;
+    width: 100%;
 }
 .faq-content select:hover{
     background: #087944;
     color: #fff;
     transition: 0.7s;
 }
-/* Optional */
+/* .........................*/
+
+/* ......................... */
 #news{
     max-width: 1168px;
     margin: 0 auto;
