@@ -267,13 +267,12 @@ main{
 .faq-content select{
     border-radius: 4px;
     border: 1px solid #0E0E0E;
-    padding: 15px 30px;
+    padding: 15px 35px;
     background: #C6E4D6;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
     border-radius: 4px;
-    width: 100%;
 }
 .faq-content select:hover{
     background: #087944;
