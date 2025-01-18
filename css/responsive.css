@@ -1,0 +1,43 @@
+/* Small Devices */
+@media screen and (max-width: 576px) {
+    #hero .hero-container{
+        flex-direction: column-reverse;
+        gap: 50px;
+        padding: 10px 25px;
+    }
+    .hero-container img{
+        width: 100%;
+    }
+    .card, #future .card, .box-1, .donate-items{
+        grid-template-columns: 1fr;
+    }
+    #pillers, #future, #republic, #faq, #news, #donate{
+        margin: 0px 10px;
+    }
+    #donate{
+        text-align: center;
+    }
+
+}
+/* Medium devices */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .card, #future .card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ....................... */
+.hide{
+    display: none;
+}
